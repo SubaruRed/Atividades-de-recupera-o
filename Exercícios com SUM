@@ -1,0 +1,149 @@
+1.
+SELECT SUM(Quantity) AS SomaTotal FROM OrderDetails;
+
+2.
+SELECT SUM(Quantity) AS SomaProdutoMaior10 FROM OrderDetails WHERE ProductID > 10;
+
+3.
+SELECT SUM(Quantity) AS SomaOrderIDMenor100 FROM OrderDetails WHERE OrderID < 100;
+
+4.
+SELECT SUM(Quantity) AS SomaDetalhesPares FROM OrderDetails WHERE OrderDetailID % 2 = 0;
+
+5.
+SELECT SUM(Quantity) AS SomaOrderID200 FROM OrderDetails WHERE OrderID = 200;
+
+6.
+SELECT SUM(Quantity) AS SomaProdutosEntre5e15 FROM OrderDetails WHERE ProductID BETWEEN 5 AND 15;
+
+7.
+SELECT SUM(Quantity) AS SomaQuantidadeMaior20 FROM OrderDetails WHERE Quantity > 20;
+
+8.
+SELECT SUM(Quantity) AS SomaOrderIDImpar FROM OrderDetails WHERE OrderID % 2 = 1;
+
+9.
+SELECT SUM(Quantity) AS SomaProdutoMultiplo5 FROM OrderDetails WHERE ProductID % 5 = 0;
+
+10.
+SELECT SUM(Quantity) AS SomaDetalhesEntre50e100 FROM OrderDetails WHERE OrderDetailID BETWEEN 50 AND 100;
+
+11.
+SELECT SUM(Quantity) AS SomaQuantidadeMaior15 FROM OrderDetails WHERE Quantity > 15;
+
+12.
+SELECT SUM(Quantity) AS SomaProdutos369 FROM OrderDetails WHERE ProductID IN (3, 6, 9);
+
+13.
+SELECT SUM(Quantity) AS SomaOrderIDTermina0 FROM OrderDetails WHERE CAST(OrderID AS TEXT) LIKE '%0';
+
+14.
+SELECT SUM(Quantity) AS SomaProdutoMaior20 FROM OrderDetails WHERE ProductID > 20;
+
+15.
+SELECT SUM(Quantity) AS SomaDetalhesMenor30 FROM OrderDetails WHERE OrderDetailID < 30;
+
+16.
+SELECT SUM(Quantity) AS SomaEntre10e30 FROM OrderDetails WHERE Quantity BETWEEN 10 AND 30;
+
+17.
+SELECT SUM(Quantity) AS SomaOrderIDMultiplo4 FROM OrderDetails WHERE OrderID % 4 = 0;
+
+18.
+SELECT SUM(Quantity) AS SomaProdutosNao123 FROM OrderDetails WHERE ProductID NOT IN (1, 2, 3);
+
+19.
+SELECT SUM(Quantity) AS SomaDetalhesMaior200 FROM OrderDetails WHERE OrderDetailID > 200;
+
+20.
+SELECT SUM(Quantity) AS SomaOrderIDComeca1 FROM OrderDetails WHERE CAST(OrderID AS TEXT) LIKE '1%';
+
+21.
+SELECT SUM(Quantity) AS SomaProdutoMultiplo7 FROM OrderDetails WHERE ProductID % 7 = 0;
+
+22.
+SELECT SUM(Quantity) AS SomaDetalhesTermina5 FROM OrderDetails WHERE CAST(OrderDetailID AS TEXT) LIKE '%5';
+
+23.
+SELECT SUM(Quantity) AS SomaQuantidadeMenor12 FROM OrderDetails WHERE Quantity < 12;
+
+24.
+SELECT SUM(Quantity) AS SomaOrderID300 FROM OrderDetails WHERE OrderID = 300;
+
+25.
+SELECT SUM(Quantity) AS SomaProdutos15a25 FROM OrderDetails WHERE ProductID BETWEEN 15 AND 25;
+
+26.
+SELECT SUM(Quantity) AS SomaDetalhesImpares FROM OrderDetails WHERE OrderDetailID % 2 = 1;
+
+27.
+SELECT SUM(Quantity) AS SomaProdutoMaior50 FROM OrderDetails WHERE ProductID > 50;
+
+28.
+SELECT SUM(Quantity) AS SomaEntre5e20 FROM OrderDetails WHERE Quantity BETWEEN 5 AND 20;
+
+29.
+SELECT SUM(Quantity) AS SomaDetalhesMenor10 FROM OrderDetails WHERE OrderDetailID < 10;
+
+30.
+SELECT SUM(Quantity) AS SomaOrderIDMaior100 FROM OrderDetails WHERE OrderID > 100;
+
+31.
+SELECT SUM(Quantity) AS SomaProdutos248 FROM OrderDetails WHERE ProductID IN (2, 4, 8);
+
+32.
+SELECT SUM(Quantity) AS SomaDetalhesComeca3 FROM OrderDetails WHERE CAST(OrderDetailID AS TEXT) LIKE '3%';
+
+33.
+SELECT SUM(Quantity) AS SomaMultiplo10 FROM OrderDetails WHERE Quantity % 10 = 0;
+
+34.
+SELECT SUM(Quantity) AS SomaOrderIDMaior250 FROM OrderDetails WHERE OrderID > 250;
+
+35.
+SELECT SUM(Quantity) AS SomaProdutoTermina6 FROM OrderDetails WHERE CAST(ProductID AS TEXT) LIKE '%6';
+
+36.
+SELECT SUM(Quantity) AS SomaOrderIDMenor50 FROM OrderDetails WHERE OrderID < 50;
+
+37.
+SELECT SUM(Quantity) AS SomaProdutoMaior30 FROM OrderDetails WHERE ProductID > 30;
+
+38.
+SELECT SUM(Quantity) AS SomaDetalhesMaior400 FROM OrderDetails WHERE OrderDetailID > 400;
+
+39.
+SELECT SUM(Quantity) AS SomaOrderID20a60 FROM OrderDetails WHERE OrderID BETWEEN 20 AND 60;
+
+40.
+SELECT SUM(Quantity) AS SomaQuantidadeMaior18 FROM OrderDetails WHERE Quantity > 18;
+
+41.
+SELECT SUM(Quantity) AS SomaProdutoMultiplo9 FROM OrderDetails WHERE ProductID % 9 = 0;
+
+42.
+SELECT SUM(Quantity) AS SomaDetalhesMenor150 FROM OrderDetails WHERE OrderDetailID < 150;
+
+43.
+SELECT SUM(Quantity) AS SomaEntre25e40 FROM OrderDetails WHERE Quantity BETWEEN 25 AND 40;
+
+44.
+SELECT SUM(Quantity) AS SomaProduto7 FROM OrderDetails WHERE ProductID = 7;
+
+45.
+SELECT SUM(Quantity) AS SomaOrderIDMaior400 FROM OrderDetails WHERE OrderID > 400;
+
+46.
+SELECT SUM(Quantity) AS SomaDetalhesTermina9 FROM OrderDetails WHERE CAST(OrderDetailID AS TEXT) LIKE '%9';
+
+47.
+SELECT SUM(Quantity) AS SomaOrderIDMultiplo5 FROM OrderDetails WHERE OrderID % 5 = 0;
+
+48.
+SELECT SUM(Quantity) AS SomaQuantidade20a50 FROM OrderDetails WHERE Quantity BETWEEN 20 AND 50;
+
+49.
+SELECT SUM(Quantity) AS SomaProdutoMenor12 FROM OrderDetails WHERE ProductID < 12;
+
+50.
+SELECT SUM(Quantity) AS SomaDetalhes100a300 FROM OrderDetails WHERE OrderDetailID BETWEEN 100 AND 300;
