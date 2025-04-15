@@ -1,0 +1,150 @@
+1.
+SELECT COUNT(*) AS TotalRegistros FROM OrderDetails;
+
+2.
+SELECT COUNT(DISTINCT OrderID) AS TotalPedidos FROM OrderDetails;
+
+3.
+SELECT COUNT(DISTINCT ProductID) AS ProdutosDiferentes FROM OrderDetails;
+
+4.
+SELECT COUNT(*) AS QuantidadeMaior10 FROM OrderDetails WHERE Quantity > 10;
+
+5.
+SELECT COUNT(*) AS Pedidos5 FROM OrderDetails WHERE OrderID = 5;
+
+6.
+SELECT COUNT(*) AS ProductIDComQuantidadeMenor20 FROM OrderDetails WHERE Quantity < 20;
+
+7.
+SELECT COUNT(*) AS OrderDetailIDPar FROM OrderDetails WHERE OrderDetailID % 2 = 0;
+
+8.
+SELECT COUNT(*) AS Entre5e15 FROM OrderDetails WHERE Quantity BETWEEN 5 AND 15;
+
+9.
+SELECT COUNT(*) AS OrderIDMaior50 FROM OrderDetails WHERE OrderID > 50;
+
+10.
+SELECT COUNT(*) AS ProductID3 FROM OrderDetails WHERE ProductID = 3;
+
+11.
+SELECT COUNT(*) AS MultiplosDe3 FROM OrderDetails WHERE Quantity % 3 = 0;
+
+12.
+SELECT COUNT(*) AS OrderIDMaior100 FROM OrderDetails WHERE OrderID > 100;
+
+13.
+SELECT COUNT(*) AS OrderDetailIDMenor20 FROM OrderDetails WHERE OrderDetailID < 20;
+
+14.
+SELECT COUNT(*) AS ProductIDMenor8 FROM OrderDetails WHERE ProductID < 8;
+
+15.
+SELECT COUNT(*) AS QuantidadeMaior25 FROM OrderDetails WHERE Quantity > 25;
+
+16.
+SELECT COUNT(DISTINCT ProductID) FROM OrderDetails WHERE OrderID < 15;
+
+17.
+SELECT COUNT(*) AS QuantityMenor5 FROM OrderDetails WHERE Quantity < 5;
+
+18.
+SELECT COUNT(DISTINCT OrderID) AS PedidosQuantidadeMaior30 FROM OrderDetails WHERE Quantity > 30;
+
+
+19.
+SELECT COUNT(*) AS ProductIDPar FROM OrderDetails WHERE ProductID % 2 = 0;
+
+20.
+SELECT COUNT(OrderDetailID) FROM OrderDetails WHERE Quantity BETWEEN 10 AND 20;
+
+21.
+SELECT COUNT(*) AS ProductIDMaior15 FROM OrderDetails WHERE ProductID > 15;
+
+22.
+SELECT COUNT(*) AS OrderDetailIDComecaCom1 FROM OrderDetails WHERE CAST(OrderDetailID AS TEXT) LIKE '1%';
+
+23.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderID = 10;
+
+24.
+SELECT COUNT(*) FROM OrderDetails WHERE Quantity % 10 = 0;
+
+25.
+SELECT COUNT(DISTINCT OrderID) FROM OrderDetails WHERE ProductID < 4;
+
+26.
+SELECT COUNT(*) FROM OrderDetails WHERE Quantity < 12;
+
+27.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderDetailID > 100;
+
+28.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderID = 8;
+
+29.
+SELECT COUNT(DISTINCT ProductID) FROM OrderDetails WHERE Quantity > 15;
+
+30.
+SELECT COUNT(*) FROM OrderDetails WHERE Quantity % 2 = 1;
+
+31.
+SELECT COUNT(*) FROM OrderDetails WHERE ProductID BETWEEN 2 AND 10;
+
+32.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderID > 20;
+
+33.
+SELECT COUNT(*) FROM OrderDetails WHERE Quantity = 10;
+
+34.
+SELECT COUNT(*) FROM OrderDetails WHERE CAST(OrderDetailID AS TEXT) LIKE '%3';
+
+35.
+SELECT COUNT(DISTINCT ProductID) FROM OrderDetails WHERE Quantity > 18;
+
+36.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderID < 50;
+
+37.
+SELECT COUNT(*) FROM OrderDetails WHERE Quantity = 5;
+
+38.
+SELECT COUNT(*) FROM OrderDetails WHERE CAST(ProductID AS TEXT) LIKE '4%';
+
+39.
+SELECT COUNT(DISTINCT OrderID) FROM OrderDetails WHERE Quantity > 15;
+
+40.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderDetailID < 25;
+
+41.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderID BETWEEN 30 AND 70;
+
+42.
+SELECT COUNT(*) FROM OrderDetails WHERE ProductID = 7;
+
+43.
+SELECT COUNT(*) FROM OrderDetails WHERE Quantity > 20;
+
+44.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderID > 15;
+
+45.
+SELECT COUNT(*) FROM OrderDetails WHERE CAST(ProductID AS TEXT) LIKE '%6';
+
+46.
+SELECT COUNT(*) FROM OrderDetails WHERE Quantity BETWEEN 7 AND 14;
+
+47.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderID > 90;
+
+48.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderDetailID < 50;
+
+49.
+SELECT COUNT(*) FROM OrderDetails WHERE Quantity > 30;
+
+50.
+SELECT COUNT(*) FROM OrderDetails WHERE OrderID BETWEEN 10 AND 40;
