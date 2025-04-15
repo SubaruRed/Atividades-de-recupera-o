@@ -1,0 +1,119 @@
+1
+SELECT * FROM OrderDetails WHERE OrderID IN (50, 100, 150) ORDER BY Quantity;
+
+2
+SELECT * FROM OrderDetails WHERE ProductID IN (2, 4, 6, 8) ORDER BY OrderDetailID;
+
+3
+SELECT * FROM OrderDetails WHERE Quantity IN (10, 20, 30) ORDER BY OrderID;
+
+4
+SELECT * FROM OrderDetails WHERE OrderDetailID IN (5, 10, 15, 20) ORDER BY Quantity;
+
+5
+SELECT * FROM OrderDetails WHERE OrderID IN (200, 300, 400) ORDER BY ProductID;
+
+6
+SELECT * FROM OrderDetails WHERE ProductID IN (12, 14, 16) ORDER BY Quantity;
+
+7
+SELECT * FROM OrderDetails WHERE Quantity IN (25, 50, 75, 100) ORDER BY OrderID;
+
+8
+SELECT * FROM OrderDetails WHERE OrderDetailID IN (100, 200, 300) ORDER BY ProductID;
+
+9
+SELECT * FROM OrderDetails WHERE ProductID IN (5, 10, 15, 20) ORDER BY Quantity;
+
+10
+SELECT * FROM OrderDetails WHERE Quantity IN (1, 2, 3, 4, 5) ORDER BY OrderID;
+
+11
+SELECT * FROM OrderDetails WHERE OrderID IN (250, 350, 450) ORDER BY Quantity;
+
+12
+SELECT * FROM OrderDetails WHERE ProductID IN (11, 21, 31) ORDER BY OrderDetailID;
+
+13
+SELECT * FROM OrderDetails WHERE Quantity IN (40, 50, 60) ORDER BY OrderID;
+
+14
+SELECT * FROM OrderDetails WHERE OrderDetailID IN (150, 250, 350) ORDER BY ProductID;
+
+15
+SELECT * FROM OrderDetails WHERE ProductID IN (7, 14, 21) ORDER BY Quantity;
+
+16
+SELECT * FROM OrderDetails WHERE OrderID IN (50, 100, 200) ORDER BY OrderDetailID;
+
+17
+SELECT * FROM OrderDetails WHERE Quantity IN (20, 25, 30) ORDER BY ProductID;
+
+18
+SELECT * FROM OrderDetails WHERE OrderDetailID IN (10, 20, 30) ORDER BY Quantity;
+
+19
+SELECT * FROM OrderDetails WHERE OrderID IN (100, 200, 300) ORDER BY Quantity;
+
+20
+SELECT * FROM OrderDetails WHERE Quantity IN (5, 10, 15) ORDER BY OrderID;
+
+21
+SELECT * FROM OrderDetails WHERE OrderDetailID IN (25, 50, 75, 100) ORDER BY Quantity;
+
+22
+SELECT * FROM OrderDetails WHERE ProductID IN (9, 18, 27) ORDER BY OrderID;
+
+23
+SELECT * FROM OrderDetails WHERE Quantity IN (12, 14, 16) ORDER BY ProductID;
+
+24
+SELECT * FROM OrderDetails WHERE OrderID IN (400, 500, 600) ORDER BY Quantity;
+
+25
+SELECT * FROM OrderDetails WHERE OrderDetailID IN (20, 40, 60, 80) ORDER BY OrderID;
+
+26
+SELECT * FROM OrderDetails WHERE ProductID IN (5, 10, 20) ORDER BY Quantity;
+
+27
+SELECT * FROM OrderDetails WHERE Quantity IN (8, 16, 24, 32) ORDER BY OrderDetailID;
+
+28
+SELECT * FROM OrderDetails WHERE OrderID IN (300, 400, 500) ORDER BY ProductID;
+
+29
+SELECT * FROM OrderDetails WHERE Quantity IN (15, 30, 45) ORDER BY OrderID;
+
+30
+SELECT * FROM OrderDetails WHERE OrderDetailID IN (50, 150, 250) ORDER BY Quantity;
+
+31
+SELECT * FROM OrderDetails WHERE OrderDetailID IN (100, 200, 300, 400) ORDER BY Quantity;
+
+32
+SELECT * FROM OrderDetails WHERE ProductID IN (10, 20, 30, 40) ORDER BY OrderID;
+
+33
+SELECT * FROM OrderDetails WHERE Quantity IN (5, 10, 15, 20) ORDER BY ProductID;
+
+34
+SELECT * FROM OrderDetails WHERE OrderID IN (50, 150, 250, 350) ORDER BY Quantity;
+
+35
+SELECT * FROM OrderDetails WHERE OrderDetailID IN (1, 3, 5, 7) ORDER BY OrderID;
+
+36
+SELECT * FROM OrderDetails WHERE ProductID IN (13, 26, 39) ORDER BY Quantity;
+
+37
+SELECT * FROM OrderDetails WHERE Quantity IN (22, 44, 66, 88) ORDER BY OrderDetailID;
+
+38
+SELECT * FROM OrderDetails WHERE OrderID IN (90, 180, 270) ORDER BY ProductID;
+
+39
+SELECT * FROM OrderDetails WHERE Quantity IN (8, 16, 24, 32) ORDER BY OrderID;
+
+40
+SELECT * FROM OrderDetails WHERE OrderDetailID IN (101, 201, 301, 401) ORDER BY Quantity;
